@@ -1,0 +1,85 @@
+.green{
+    background-color: darkkhaki;
+    color: black;
+    
+}
+.nav{
+    border-radius: 20px;
+    width: 15px;
+    
+
+}
+.Nav-Bar{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+
+.box{
+    position:relative;
+    overflow: hidden;
+}
+
+.pro img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px, 0px, 10px, 0px;
+}
+
+.yellow{
+    text-align: center;
+
+}
+.blue{
+    background-color:palegoldenrod;
+    display: flex;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    background-image: url("https://img.freepik.com/free-photo/armchair-green-living-room-with-copy-space_43614-910.jpg");
+    background-size: cover;
+
+}
+.Container{
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    margin: 0px;
+}
+.box{
+    background-color:beige;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 2em;
+    text-align:justify;
+
+}
+
+footer{
+    background-color:teal;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image-container {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
